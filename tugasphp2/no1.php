@@ -1,9 +1,12 @@
 1.Buatkan kode menggunakan for untuk menghasilkan segitiga
 
 <?php
-
- for ($awal = 1; $awal <=  15; $awal++){
-        echo " £" . $awal . "<br>";
- }
-echo "<br>";
+       echo "<br>";
+for ($i = 1; $i <= 1000; $i++) {
+       for ($j = 1; $j <= $i; $j++) {
+         echo "#";
+       }
+       echo "<br>";
+     }
+     
 
